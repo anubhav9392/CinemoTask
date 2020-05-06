@@ -105,16 +105,14 @@
 		130EBF1F246305E2000E221A /* CinemoTask */ = {
 			isa = PBXGroup;
 			children = (
-				130EBF20246305E2000E221A /* AppDelegate.swift */,
-				130EBF22246305E2000E221A /* SceneDelegate.swift */,
-				130EBF26246305E2000E221A /* Main.storyboard */,
+				130EBF6324633ECB000E221A /* Data */,
+				130EBF6224633EA7000E221A /* Storyboards */,
+				130EBF6124633E89000E221A /* Delegates */,
+				130EBF6024633E64000E221A /* TableViewCells */,
+				130EBF5F24633E4C000E221A /* ViewControllers */,
 				130EBF2C246305E6000E221A /* Assets.xcassets */,
-				130EBF2E246305E6000E221A /* LaunchScreen.storyboard */,
 				130EBF31246305E6000E221A /* Info.plist */,
 				130EBF29246305E2000E221A /* CinemoTask.xcdatamodeld */,
-				130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */,
-				130EBF5924631397000E221A /* ImageData.swift */,
-				130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */,
 			);
 			path = CinemoTask;
 			sourceTree = "<group>";
@@ -135,6 +133,48 @@
 				130EBF47246305E6000E221A /* Info.plist */,
 			);
 			path = CinemoTaskUITests;
+			sourceTree = "<group>";
+		};
+		130EBF5F24633E4C000E221A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		130EBF6024633E64000E221A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		130EBF6124633E89000E221A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				130EBF20246305E2000E221A /* AppDelegate.swift */,
+				130EBF22246305E2000E221A /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		130EBF6224633EA7000E221A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				130EBF26246305E2000E221A /* Main.storyboard */,
+				130EBF2E246305E6000E221A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		130EBF6324633ECB000E221A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				130EBF5924631397000E221A /* ImageData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

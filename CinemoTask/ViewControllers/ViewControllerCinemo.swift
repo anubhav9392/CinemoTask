@@ -19,20 +19,6 @@ class ViewControllerCinemo: UIViewController, UITableViewDelegate, UITableViewDa
         loadSampleData()
         tableViewImages?.delegate = self
         tableViewImages?.dataSource = self
-        addSlideMenuButtonMyMesaage()
-    }
-    
-    func addSlideMenuButtonMyMesaage(){
-        let btn3 = UIButton(type: .custom)
-        btn3.setImage(UIImage(named: "add"), for: .normal)
-        btn3.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-                btn3.addTarget(self, action: #selector(doOnButtonClick), for: .touchUpInside)
-        let item3 = UIBarButtonItem(customView: btn3)
-        self.navigationItem.setRightBarButtonItems([item3], animated: true)
-    }
-    
-    @objc func doOnButtonClick(){
-        print("add button click")
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		130EBF21246305E2000E221A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF20246305E2000E221A /* AppDelegate.swift */; };
 		130EBF23246305E2000E221A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF22246305E2000E221A /* SceneDelegate.swift */; };
-		130EBF25246305E2000E221A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF24246305E2000E221A /* ViewController.swift */; };
 		130EBF28246305E2000E221A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130EBF26246305E2000E221A /* Main.storyboard */; };
 		130EBF2B246305E2000E221A /* CinemoTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF29246305E2000E221A /* CinemoTask.xcdatamodeld */; };
 		130EBF2D246305E6000E221A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130EBF2C246305E6000E221A /* Assets.xcassets */; };
 		130EBF30246305E6000E221A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130EBF2E246305E6000E221A /* LaunchScreen.storyboard */; };
 		130EBF3B246305E6000E221A /* CinemoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF3A246305E6000E221A /* CinemoTaskTests.swift */; };
 		130EBF46246305E6000E221A /* CinemoTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF45246305E6000E221A /* CinemoTaskUITests.swift */; };
+		130EBF5824630EBD000E221A /* TableViewCellCinemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */; };
+		130EBF5A24631397000E221A /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF5924631397000E221A /* ImageData.swift */; };
+		130EBF5C24631AD3000E221A /* ViewControllerCinemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		130EBF1D246305E2000E221A /* CinemoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130EBF20246305E2000E221A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		130EBF22246305E2000E221A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		130EBF24246305E2000E221A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		130EBF27246305E2000E221A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		130EBF2A246305E2000E221A /* CinemoTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CinemoTask.xcdatamodel; sourceTree = "<group>"; };
 		130EBF2C246305E6000E221A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		130EBF41246305E6000E221A /* CinemoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130EBF45246305E6000E221A /* CinemoTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemoTaskUITests.swift; sourceTree = "<group>"; };
 		130EBF47246305E6000E221A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCinemo.swift; sourceTree = "<group>"; };
+		130EBF5924631397000E221A /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCinemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				130EBF20246305E2000E221A /* AppDelegate.swift */,
 				130EBF22246305E2000E221A /* SceneDelegate.swift */,
-				130EBF24246305E2000E221A /* ViewController.swift */,
 				130EBF26246305E2000E221A /* Main.storyboard */,
 				130EBF2C246305E6000E221A /* Assets.xcassets */,
 				130EBF2E246305E6000E221A /* LaunchScreen.storyboard */,
 				130EBF31246305E6000E221A /* Info.plist */,
 				130EBF29246305E2000E221A /* CinemoTask.xcdatamodeld */,
+				130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */,
+				130EBF5924631397000E221A /* ImageData.swift */,
+				130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */,
 			);
 			path = CinemoTask;
 			sourceTree = "<group>";
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				130EBF25246305E2000E221A /* ViewController.swift in Sources */,
+				130EBF5824630EBD000E221A /* TableViewCellCinemo.swift in Sources */,
 				130EBF2B246305E2000E221A /* CinemoTask.xcdatamodeld in Sources */,
 				130EBF21246305E2000E221A /* AppDelegate.swift in Sources */,
 				130EBF23246305E2000E221A /* SceneDelegate.swift in Sources */,
+				130EBF5C24631AD3000E221A /* ViewControllerCinemo.swift in Sources */,
+				130EBF5A24631397000E221A /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

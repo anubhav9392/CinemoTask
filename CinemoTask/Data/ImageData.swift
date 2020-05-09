@@ -9,9 +9,7 @@
 import UIKit
 
 class ImageData{
-    
     var photo: UIImage?
-    
     init?(photo: UIImage?) {
         self.photo = photo
     }

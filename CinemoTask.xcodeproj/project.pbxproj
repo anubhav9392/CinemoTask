@@ -18,6 +18,10 @@
 		130EBF5824630EBD000E221A /* TableViewCellCinemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */; };
 		130EBF5A24631397000E221A /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF5924631397000E221A /* ImageData.swift */; };
 		130EBF5C24631AD3000E221A /* ViewControllerCinemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */; };
+		132D84152466C95B00F3EB38 /* imaget2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 132D84122466C95B00F3EB38 /* imaget2.tiff */; };
+		132D84182466D08200F3EB38 /* imaget1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 132D84162466D08200F3EB38 /* imaget1.tiff */; };
+		132D84192466D08200F3EB38 /* imaget3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 132D84172466D08200F3EB38 /* imaget3.tiff */; };
+		132D841B2466D11200F3EB38 /* imaget4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 132D841A2466D11200F3EB38 /* imaget4.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,11 @@
 		130EBF5724630EBD000E221A /* TableViewCellCinemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCinemo.swift; sourceTree = "<group>"; };
 		130EBF5924631397000E221A /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		130EBF5B24631AD3000E221A /* ViewControllerCinemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCinemo.swift; sourceTree = "<group>"; };
+		130EBF7624635472000E221A /* Documents.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Documents.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		132D84122466C95B00F3EB38 /* imaget2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = imaget2.tiff; sourceTree = "<group>"; };
+		132D84162466D08200F3EB38 /* imaget1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = imaget1.tiff; sourceTree = "<group>"; };
+		132D84172466D08200F3EB38 /* imaget3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = imaget3.tiff; sourceTree = "<group>"; };
+		132D841A2466D11200F3EB38 /* imaget4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = imaget4.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		130EBF3E246305E6000E221A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EBF7324635472000E221A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,6 +114,7 @@
 				130EBF1D246305E2000E221A /* CinemoTask.app */,
 				130EBF36246305E6000E221A /* CinemoTaskTests.xctest */,
 				130EBF41246305E6000E221A /* CinemoTaskUITests.xctest */,
+				130EBF7624635472000E221A /* Documents.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +122,7 @@
 		130EBF1F246305E2000E221A /* CinemoTask */ = {
 			isa = PBXGroup;
 			children = (
+				132D840F2466C92F00F3EB38 /* Documents */,
 				130EBF6324633ECB000E221A /* Data */,
 				130EBF6224633EA7000E221A /* Storyboards */,
 				130EBF6124633E89000E221A /* Delegates */,
@@ -177,6 +195,17 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		132D840F2466C92F00F3EB38 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				132D84162466D08200F3EB38 /* imaget1.tiff */,
+				132D84172466D08200F3EB38 /* imaget3.tiff */,
+				132D841A2466D11200F3EB38 /* imaget4.tiff */,
+				132D84122466C95B00F3EB38 /* imaget2.tiff */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,6 +262,23 @@
 			productReference = 130EBF41246305E6000E221A /* CinemoTaskUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		130EBF7524635472000E221A /* Documents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130EBF7924635472000E221A /* Build configuration list for PBXNativeTarget "Documents" */;
+			buildPhases = (
+				130EBF7224635472000E221A /* Sources */,
+				130EBF7324635472000E221A /* Frameworks */,
+				130EBF7424635472000E221A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Documents;
+			productName = Documents;
+			productReference = 130EBF7624635472000E221A /* Documents.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,6 +300,9 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 130EBF1C246305E2000E221A;
 					};
+					130EBF7524635472000E221A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 130EBF18246305E2000E221A /* Build configuration list for PBXProject "CinemoTask" */;
@@ -272,6 +321,7 @@
 				130EBF1C246305E2000E221A /* CinemoTask */,
 				130EBF35246305E6000E221A /* CinemoTaskTests */,
 				130EBF40246305E6000E221A /* CinemoTaskUITests */,
+				130EBF7524635472000E221A /* Documents */,
 			);
 		};
 /* End PBXProject section */
@@ -281,8 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132D841B2466D11200F3EB38 /* imaget4.tiff in Resources */,
 				130EBF30246305E6000E221A /* LaunchScreen.storyboard in Resources */,
+				132D84192466D08200F3EB38 /* imaget3.tiff in Resources */,
 				130EBF2D246305E6000E221A /* Assets.xcassets in Resources */,
+				132D84182466D08200F3EB38 /* imaget1.tiff in Resources */,
+				132D84152466C95B00F3EB38 /* imaget2.tiff in Resources */,
 				130EBF28246305E2000E221A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +349,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		130EBF3F246305E6000E221A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EBF7424635472000E221A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,6 +391,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				130EBF46246305E6000E221A /* CinemoTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EBF7224635472000E221A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +670,40 @@
 			};
 			name = Release;
 		};
+		130EBF7A24635472000E221A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 68C37V9ZQD;
+				INFOPLIST_FILE = Documents/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.Documents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		130EBF7B24635472000E221A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 68C37V9ZQD;
+				INFOPLIST_FILE = Documents/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anubhav.Documents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -637,6 +739,15 @@
 			buildConfigurations = (
 				130EBF51246305E6000E221A /* Debug */,
 				130EBF52246305E6000E221A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130EBF7924635472000E221A /* Build configuration list for PBXNativeTarget "Documents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EBF7A24635472000E221A /* Debug */,
+				130EBF7B24635472000E221A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
